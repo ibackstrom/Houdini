@@ -10,4 +10,4 @@ This is another paragraph.
 ```
 
 
-![alt](IMG\xyz.gif)
+![alt](IMG/xyz.gif)
