@@ -12,7 +12,7 @@ xyzdist(1, @P, prim, uv);
 @P = primuv(2, "P", prim, uv);
 ```
 
-[<img src="IMG/xyz.gif" width="500"/>](IMG/xyz.gif)
+[<img src="IMG/xyz.gif" width="500" loop=infinite />](IMG/xyz.gif)
 
 
 
