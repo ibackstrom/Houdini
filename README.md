@@ -27,7 +27,7 @@ Another simple VEX lookat function
 
 [<img src="IMG/Lookat1.gif" width="500"/>](IMG/Lookat1.gif)
 
-Pcopen is one of the most powerfull approach for VFX inside VEX. This is a simple dinsity measure snippet.
+Pcopen is one of the most powerfull approach for VFX inside VEX. This is a simple density measure snippet.
 
 ```
 int pointCloud = pcopen(0, 'P', @P, ch('radius'), chi('max_points'));
