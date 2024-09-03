@@ -13,7 +13,7 @@ xyzdist(1, @P, prim, uv);
 ```
 
 
-![xyz](IMG/xyz.gif | =100x100)
+![xyz](IMG/xyz.gif =100x100)
 
 
 Another simple VEX lookat function
