@@ -9,12 +9,6 @@ This is a paragraph.
 This is another paragraph.
 ```
 
-```md
-
-
-
-
-[Obsidian Help](https://help.obsidian.md)
 
 ![alt](IMG\xyz.gif)
 
