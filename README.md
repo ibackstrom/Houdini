@@ -24,7 +24,7 @@ Another simple VEX lookat function
 @N = normalize(point(1, 'P', 0) - @P); @up = {0, 1, 0};
 ```
 
-![lookat](IMG/lookat.gif)
+![lookat](IMG/Lookat.gif)
 
 
 Pcopen is one of the most powerfull approach for VFX inside VEX. This is a simple dinsity measure snippet.
@@ -35,7 +35,7 @@ int pcNumFound = pcnumfound(pointCloud);
 f@density = fit(pcNumFound, 0, chi('max_points'), 0, 1);
 ```
 
-![density](IMG/lookat.gif)
+![density](IMG/Density.gif)
 
 
 
