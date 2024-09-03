@@ -12,9 +12,9 @@ xyzdist(1, @P, prim, uv);
 @P = primuv(2, "P", prim, uv);
 ```
 
-[<img src="IMG/xyz.gif" width="250"/>](IMG/xyz.gif)
+[<img src="IMG/xyz.gif" width="500"/>](IMG/xyz.gif)
 
-![xyz](IMG/xyz.gif =100x100)
+
 
 
 Another simple VEX lookat function
@@ -25,8 +25,7 @@ Another simple VEX lookat function
 @N = normalize(point(1, 'P', 0) - @P); @up = {0, 1, 0};
 ```
 
-![lookat](IMG/Lookat.gif)
-
+[<img src="IMG/Lookat.gif" width="500"/>](IMG/Lookat.gif)
 
 Pcopen is one of the most powerfull approach for VFX inside VEX. This is a simple dinsity measure snippet.
 
@@ -36,7 +35,7 @@ int pcNumFound = pcnumfound(pointCloud);
 f@density = fit(pcNumFound, 0, chi('max_points'), 0, 1);
 ```
 
-![density](IMG/Density.gif)
+[<img src="IMG/Density.gif" width="500"/>](IMG/Density.gif)
 
 
 
