@@ -12,6 +12,7 @@ xyzdist(1, @P, prim, uv);
 @P = primuv(2, "P", prim, uv);
 ```
 
+[<img src="IMG/xyz.gif" width="250"/>](IMG/xyz.gif)
 
 ![xyz](IMG/xyz.gif =100x100)
 
