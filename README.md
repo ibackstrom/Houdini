@@ -74,6 +74,26 @@ removepoint(0,@ptnum);
 ```
 [<img src="IMG/frustum.gif" width="500"/>](IMG/frustum.gif)
 
+There are so many ways to infect in houdini. This one is with arrays. Get start group assigning "infect=1" attribute. Put wrangle in solver.
+
+```
+if (@infect==1){ append(i[]@infList,@ptnum); }
+
+
+int nNum; if (@infect==1){
+int handle = pcopen(0,"P",@P,ch("radius"),chi("Pts")); 
+
+while (pciterate(handle)){ 
+pcimport(handle,"point.number",nNum); 
+append(i[]@infList,nNum); 
+setpointattrib(0,"infect",nNum,1,"set");
+
+}
+}
+
+```
+[<img src="IMG/infect.gif" width="500"/>](IMG/infect.gif)
+
 
 
 
