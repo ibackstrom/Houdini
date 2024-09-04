@@ -60,6 +60,19 @@ vector delta = pcfilter(handle, "delta");
 [<img src="IMG/bend2.gif" width="500"/>](IMG/bend2.gif)
 
 
+Frustum by camera
+
+```
+v@NDC = toNDC(chs("cam"),v@P);
+float nearclip = chf("clip");
+float padding = chf("padding");
+
+if(v@nNDC.x > (1 + padding) || v@NDC.x < (0 - padding) || v@NDC.y > (1 + padding) || v@NDC.y < (0 - padding) || -v@NDC.z < nearclip){
+removepoint(0,@ptnum);
+}
+
+```
+[<img src="IMG/frustum.gif" width="500"/>](IMG/frustum.gif)
 
 
 
