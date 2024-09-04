@@ -94,6 +94,19 @@ setpointattrib(0,"infect",nNum,1,"set");
 ```
 [<img src="IMG/infect1.gif" width="500"/>](IMG/infect1.gif)
 
+There are different scenarios in VFX. So that is why "Normals towards nearest neighboors".
 
+```
+int handle = pcopen(0, 'P', @P, ch('radius'), 2);
 
+vector closeP;
+
+while(pciterate(handle)){
+
+pcimport(handle, "P", closeP);
+
+@N = closeP - @P;
+}
+```
+[<img src="IMG/normal.gif" width="500"/>](IMG/normal.gif)
 
