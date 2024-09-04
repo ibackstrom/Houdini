@@ -37,6 +37,29 @@ f@density = fit(pcNumFound, 0, chi('max_points'), 0, 1);
 
 [<img src="IMG/Density1.gif" width="500"/>](IMG/Density1.gif)
 
+Custom bend with pcopen. In some cases might be helpfull
+
+```
+//first wrangle
+
+vector deformed = point(1,"P",@ptnum);
+v@delta = deformed - @P;
+
+```
+
+```
+//second wrangle
+
+int handle = pcopen(1, "P", @P, 5, 500);
+vector delta = pcfilter(handle, "delta");
+@P = @P + delta; 
+
+```
+[<img src="IMG/bend1.png" width="500"/>](IMG/bend1.png)
+
+[<img src="IMG/bend2.gif" width="500"/>](IMG/bend2.gif)
+
+
 
 
 
