@@ -72,7 +72,7 @@ removepoint(0,@ptnum);
 }
 
 ```
-[<img src="IMG/frustum.gif" width="500"/>](IMG/frustum.gif)
+[<img src="IMG/frustum1.gif" width="500"/>](IMG/frustum1.gif)
 
 There are so many ways to infect in houdini. This one is with arrays. Get start group assigning "infect=1" attribute. Put wrangle in solver.
 
@@ -92,7 +92,7 @@ setpointattrib(0,"infect",nNum,1,"set");
 }
 
 ```
-[<img src="IMG/infect.gif" width="500"/>](IMG/infect.gif)
+[<img src="IMG/infect1.gif" width="500"/>](IMG/infect1.gif)
 
 
 
